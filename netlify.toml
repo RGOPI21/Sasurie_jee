@@ -1,0 +1,44 @@
+# Netlify Configuration for College Website
+# This configuration deploys both frontend and backend
+
+[build]
+  # Build command runs both frontend and backend builds
+  command = "npm run build"
+  # Publish directory for the frontend
+  publish = "frontend/dist"
+  
+[build.environment]
+  NODE_VERSION = "18.17.0"
+
+# Netlify Functions for Backend API
+[functions]
+  directory = "netlify/functions"
+  node_bundler = "esbuild"
+
+# Redirects for API routes to Netlify Functions
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/api/:splat"
+  status = 200
+
+# SPA fallback - all other routes go to index.html
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Headers for security and CORS
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "geolocation=(), microphone=(), camera=()"
+
+[[headers]]
+  for = "/api/*"
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, PUT, DELETE, OPTIONS"
+    Access-Control-Allow-Headers = "Content-Type, Authorization"

@@ -1,0 +1,139 @@
+{
+  "leads": [
+    {
+      "_id": "1765320328391",
+      "firstName": "abhinav",
+      "lastName": "shankar",
+      "email": "habhinav1221@gmail.com",
+      "phone": "7094422440",
+      "message": "Registration for admissions 2025-26. Mobile: 7094422440",
+      "source": "registration",
+      "createdAt": "2025-12-09T22:45:28.391Z"
+    }
+  ],
+  "users": [
+    {
+      "_id": "1765320668363",
+      "fullName": "Abhinav shankar",
+      "email": "habhinav1111@gmail.com",
+      "password": "Abc@12345",
+      "mobile": "7094422440",
+      "createdAt": "2025-12-09T22:51:08.363Z"
+    },
+    {
+      "_id": "1765376901392",
+      "fullName": "Jane Smith",
+      "email": "jane.smith@test.com",
+      "password": "test123",
+      "mobile": "8765432109",
+      "createdAt": "2025-12-10T14:28:21.392Z"
+    }
+  ],
+  "applications": [
+    {
+      "userId": "1765320668363",
+      "source": "",
+      "fullName": "Abhinav shankar",
+      "gender": "",
+      "dob": "",
+      "nationality": "Indian",
+      "aadhar": "",
+      "bloodGroup": "",
+      "motherTongue": "",
+      "community": "",
+      "address": "",
+      "city": "",
+      "state": "",
+      "pincode": "",
+      "studentMobile": "7094422440",
+      "studentEmail": "habhinav1111@gmail.com",
+      "parentMobile": "",
+      "parentEmail": "",
+      "fatherName": "",
+      "fatherOccupation": "",
+      "motherName": "",
+      "motherOccupation": "",
+      "guardianName": "",
+      "schoolName10": "",
+      "board10": "",
+      "percentage10": "",
+      "year10": "",
+      "schoolName12": "",
+      "board12": "",
+      "percentage12": "",
+      "year12": "",
+      "examName": "",
+      "examRoll": "",
+      "examScore": "",
+      "examRank": "",
+      "program": "",
+      "course": "",
+      "courseChoice2": "",
+      "courseChoice3": "",
+      "isFirstGraduate": "",
+      "isMinority": "",
+      "languagesKnown": "",
+      "achievements": "",
+      "emergencyContactName": "",
+      "emergencyContactNumber": "",
+      "emergencyRelation": "",
+      "status": "submitted",
+      "updatedAt": "2025-12-09T23:27:40.108Z",
+      "applicationNumber": "SCE2501001",
+      "createdAt": "2025-12-09T23:27:40.108Z"
+    }
+  ],
+  "programs": [
+    {
+      "_id": "1",
+      "title": "Computer Science Engineering",
+      "code": "CSE",
+      "description": "Learn to build modern software systems.",
+      "image": "https://images.unsplash.com/photo-1517694712202-14dd9538aa97"
+    },
+    {
+      "_id": "2",
+      "title": "Mechanical Engineering",
+      "code": "MECH",
+      "description": "Design and manufacture mechanical systems.",
+      "image": "https://images.unsplash.com/photo-1537462715879-360eeb61a0ad"
+    }
+  ],
+  "events": [
+    {
+      "_id": "1",
+      "title": "Annual Tech Symposium",
+      "date": "2025-12-09T22:41:52.141Z",
+      "description": "Showcasing student projects and innovations."
+    }
+  ],
+  "stats": [
+    {
+      "label": "Students",
+      "value": "2500+"
+    },
+    {
+      "label": "Faculty",
+      "value": "150+"
+    },
+    {
+      "label": "Placements",
+      "value": "95%"
+    }
+  ],
+  "testimonials": [
+    {
+      "_id": "1",
+      "name": "Sarah J.",
+      "role": "Alumni, Batch 2020",
+      "content": "The best 4 years of my life! Great faculty and campus.",
+      "image": "https://randomuser.me/api/portraits/women/44.jpg"
+    }
+  ],
+  "siteSettings": {
+    "heroTitle": "Welcome to Sasurie College",
+    "heroSubtitle": "Empowering the next generation of engineers.",
+    "contactEmail": "admissions@sasurie.edu",
+    "contactPhone": "+91 98765 43210"
+  }
+}

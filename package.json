@@ -1,0 +1,38 @@
+{
+  "name": "college-website",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Modernized Sasurie-style college website built with React, Node, TypeScript, MongoDB.",
+  "scripts": {
+    "dev": "npm run dev --workspace frontend",
+    "dev:api": "npm run dev --workspace backend",
+    "build": "npm run build --workspace frontend && npm run build --workspace backend",
+    "lint": "npm run lint --workspace frontend && npm run lint --workspace backend",
+    "format": "npm run format --workspace frontend && npm run format --workspace backend"
+  },
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "engines": {
+    "node": ">=18.17.0"
+  },
+  "keywords": [
+    "react",
+    "node",
+    "typescript",
+    "mongo",
+    "college-website"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "tsx": "^4.21.0"
+  },
+  "dependencies": {
+    "@types/nodemailer": "^7.0.4",
+    "mongodb": "^7.0.0",
+    "mongoose": "^9.0.1",
+    "nodemailer": "^7.0.11"
+  }
+}
