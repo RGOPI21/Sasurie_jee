@@ -15,7 +15,7 @@
     "backend"
   ],
   "engines": {
-    "node": ">=18.17.0"
+    "node": ">=20.19.0"
   },
   "keywords": [
     "react",
