@@ -9,6 +9,7 @@
   
 [build.environment]
   NODE_VERSION = "18.17.0"
+  NPM_CONFIG_PRODUCTION = "false"
 
 # Netlify Functions for Backend API
 [functions]
